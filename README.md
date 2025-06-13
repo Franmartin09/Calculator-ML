@@ -104,9 +104,9 @@ After training, the model is evaluated using several visual plots
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px;">
   <img src="output/loss_curve.png" alt="Loss Curve" width="48%">
+  <img src="output/residual_plot.png" alt="Predicted vs True" width="48%">
   <img src="output/accuracy_per_operator.png" alt="Accuracy per Operator" width="48%">
   <img src="output/error_distribution.png" alt="Error Distribution" width="48%">
-  <img src="output/residual_plot.png" alt="Predicted vs True" width="48%">
 </div>
 
 
