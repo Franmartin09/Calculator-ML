@@ -1,10 +1,10 @@
-# 🧠 Calculator-ML
+# Calculator-ML
 
 This project demonstrates how a **neural network** can simulate a basic calculator. It serves as an **educational tool** to explore how **Artificial Neural Networks (ANNs)** learn to perform arithmetic operations like addition and subtraction through structured data and training.
 
 ---
 
-## 🎯 Objective
+## Objective
 
 Train a neural network to predict the result of a basic arithmetic expression composed of:
 
@@ -16,7 +16,7 @@ Given a, op, and b, the network learns to predict a + b or a - b.
 
 ---
 
-## 📊 Dataset Generation
+## Dataset Generation
 
 The dataset is generated using `data_generation.py`. It produces **10,000 examples**, each consisting of:
 
@@ -35,7 +35,7 @@ numerator,operator,denominator,result
 ---
 
 
-## 🧱 Model Architecture
+## Model Architecture
 
 Operators are encoded using **one-hot encoding** to treat them as categorical variables:
 
@@ -66,7 +66,7 @@ Although, this project uses an **Artificial Neural Network (ANN)** since the inp
 
 ---
 
-## 🧠 Technical Justification
+## Technical Justification
 
 | Component               | Choice         | Justification                                                            |
 | ----------------------- | -------------- | ------------------------------------------------------------------------ |
@@ -80,7 +80,7 @@ Although, this project uses an **Artificial Neural Network (ANN)** since the inp
 
 ---
 
-## 🏋️ Training
+## Training
 
 The training loop is implemented using **PyTorch** with step-by-step logging and evaluation:
 
@@ -98,7 +98,7 @@ Metrics tracked include:
 
 ---
 
-## 📈 Results
+## Results
 
 After training, the model is evaluated using several visual plots
 
@@ -112,7 +112,7 @@ After training, the model is evaluated using several visual plots
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 
 ```bash
@@ -129,11 +129,11 @@ Claro, aquí tienes una versión mejor redactada y más clara de esa sección:
 
 ---
 
-## 📝 Notes
+## Notes
 
 This project is designed purely for **educational purposes**, with the goal of demonstrating how neural networks can learn simple mathematical patterns through data.
 
-### 🔮 Potential Future Improvements
+### Potential Future Improvements
 
 * Extend support to additional operators such as `*`, `/`, and `**` using ditribution normalization on dataset 
 * Enable learning with **multi-digit** and **larger numerical ranges**
@@ -162,7 +162,7 @@ This project is designed purely for **educational purposes**, with the goal of d
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Created by **Francisco José Martín**
 Feel free to reach out for ideas, feedback, or collaboration!
